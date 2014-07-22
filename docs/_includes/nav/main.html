@@ -1,4 +1,4 @@
-<header class="navbar navbar-nav navbar-fixed-top" id="top" role="banner">
+<header class="navbar navbar-nav navbar-fixed-top bg transition" id="top" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -11,7 +11,7 @@
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
-        <li{% if page.slug == "getting-started" %} class="active"{% endif %}>
+        <!-- <li{% if page.slug == "getting-started" %} class="active"{% endif %}>
           <a href="../getting-started">Getting started</a>
         </li>
         <li{% if page.slug == "css" %} class="active"{% endif %}>
@@ -25,7 +25,7 @@
         </li>
         <li{% if page.slug == "customize" %} class="active"{% endif %}>
           <a href="../customize">Customize</a>
-        </li>
+        </li> -->
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="{{ site.expo }}" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Expo');">Expo</a></li>
