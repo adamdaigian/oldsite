@@ -1,0 +1,62 @@
+#intro {
+	position: relative;
+	text-shadow: 0 1px 0 #10354a;
+	background: #154866;
+	background: radial-gradient(circle farthest-side at right bottom,#fff 8%,#154866 70%,#000);
+	height: 560px;
+	overflow: hidden;
+}
+
+.navbar-nav > ul > li:hover {
+	background: none;
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: transparent;
+}
+
+.bg {
+  background: transparent;
+}
+
+.show {
+	background: #fff;
+}
+
+.transition {    
+  -webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+#intro h1 {
+	margin-top: 200px;
+	font-family: Open Sans;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(14,21,58,0.2);
+}
+
+#intro h3 {
+	color: #bccbd3;
+	text-shadow: 0 1px 1px rgba(14,21,58,0.2);
+}
+
+.hello-container {
+	width: 375px;
+	height: 786px;
+	margin-top: 100px;
+/*	margin-left: 53px;*/
+	background-image: url('https://stripe.com/img/checkout/marketing/header-animation/mobile-flow/iphone5s.png');
+	overflow: hidden;
+}
+
+.block-1 {
+	background: #f5f7f9;
+}
+
+
+
