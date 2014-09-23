@@ -60,5 +60,26 @@
 	background: #f5f7f9;
 }
 
+.elasticbox .logo {
+	width: 260px;
+	margin: 50px auto;
+}
+
+.elasticbox .workplace {
+	width: 400px;
+	margin-left: 15px;
+	margin-bottom: -39px;
+}
+
+.elasticbox ul.functions {
+	font-size: 18px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.elasticbox ul.functions > li {
+	letter-spacing: 1px;
+	line-height: 1.6;
+}
 
 
