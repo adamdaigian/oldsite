@@ -1,1 +1,1 @@
-Hello
+Hello, this is Adam Daigian's personal website :)

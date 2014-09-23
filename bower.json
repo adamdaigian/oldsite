@@ -12,7 +12,7 @@
     "framework",
     "web"
   ],
-  "homepage": "http://getbootstrap.com",
+  "homepage": "http://adamdaigian.github.io",
   "main": [
     "less/bootstrap.less",
     "dist/css/bootstrap.css",
